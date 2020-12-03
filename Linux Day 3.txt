@@ -1,0 +1,15 @@
+[adrish@localhost ~]$ cd Desktop/
+[adrish@localhost Desktop]$ pwd
+/home/adrish/Desktop
+[adrish@localhost Desktop]$ touch myfile
+[adrish@localhost Desktop]$ vi myfile
+[adrish@localhost Desktop]$ cat -n myfile
+     1	Name:Adrish Biswas
+     2	Address:66/A,Shantinagar Sarani,Hanskhalipole,How-711109
+     3	Email:adrish1678biswas@gmail.com
+     4	Ph No:9674578309
+     5	Blood:B+
+[adrish@localhost Desktop]$ grep -E 'Name|Blood' myfile
+Name:Adrish Biswas
+Blood:B+
+[adrish@localhost Desktop]$ 
